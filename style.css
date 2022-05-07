@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  padding: 0.8rem;
+}
+i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: lightgreen;
+  transition: 0.5s;
+}
+
+.form-inline .btn:hover {
+  background-color: lightgreen;
+  border: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.form-inline, .list-group-item {
+  display: flex;
+  width: 70%;
+  gap: 1rem;
+}
+
+.list-group-item {
+  justify-content: space-between;
+  padding: 1rem;
+}
+.list-group-item .input-edit {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
